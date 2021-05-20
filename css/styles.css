@@ -1,5 +1,84 @@
-.container {
-    background:#ECECEC;
-    width: 1600px;
-    margin: 0 auto;
+body {
+    background-color: #FFFFFF;
+    color: #757575;
 }
+ul {
+    list-style: none;
+}
+.web {
+    color: #2196F3;
+}
+.logo {
+    color: #000000;
+}
+.site-nav .link {
+    color: #2196F3;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #212121;
+}
+.hero-title {
+    color: #FFFFFF;
+}
+.hero-fon{
+    background-color: #2F303A;
+}
+.section-title {
+    color: #212121;
+}
+footer {
+    background-color: #2F303A;
+}
+.logo-footer {
+    color: #FFFFFF;
+}
+
+
+
+/* СТУДИЯ логотип 2196F3, 000000
+ студия, портфолио, контакты-  2196F3 (активная), 212121 
+эмейл 757575  и (ховер )2196F3, телефон-  757575
+заголовок героя FFFFFF , фон 2F303A
+кнопка FFFFFF . фон 2196F3
+особенности заголовок 212121 , текст 757575 
+чем мы занимаемся 212121
+наша команда 212121 , фон F5F4FA
+карточки фон FFFFFF , фио 212121 , должность 757575
+футер фон 2F303A , логотип 2196F3 ,FFFFFF
+адрес FFFFFF. эмейл FFFFFF 60%  или rgba(255, 255, 255, 0,6);
+телефон  #FFFFFF или rgba(255, 255, 255, 0) 
+ */
+ /* Портфолио фон FFFFFF, логотип 2196F3, 000000
+ студия 212121, портфолио 2196F3 (активная), 212121 , контакты 212121
+ эмейл 757575 , телефон 757575
+ конпки-фильтры: ВСЕ фон 2196F3, FFFFFF
+Веб сайты, Приложения, Дизайн, Маркетинг фон F5F4FA , 212121
+проекты фон EEEEEE, заголовок 212121 , ссылка 757575
+футер фон  2F303A, логотип 2196F3 ,FFFFFF
+адрес FFFFFF. эмейл FFFFFF 60%  или rgba(255, 255, 255, 0,6);
+телефон  FFFFFF 60%  или rgba(255, 255, 255, 0,6) 
+/*.container 
+   
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+* {
+    box-sizing: border-box;
+        margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+.link-studio {
+    color: 212121;
+}
+.studio-link:hover
+.studio-link:focus {
+    color: 2196F3;
+}
+.studio-link:active {
+    color: 2196F3;
+}*/
