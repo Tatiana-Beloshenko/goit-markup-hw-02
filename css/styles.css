@@ -1,39 +1,84 @@
-body {
-    background-color: #FFFFFF;
-    color: #757575;
+:root {
+    --main-text-color: #757575;
+    --title-text-color:  #212121;
+    --accent-color: #2196F3;
+    --main-bg-color: #FFFFFF;
+    
 }
+/* основной цвет фона и основной цвет текста*/ 
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+/* убираем точки у списка*/
 ul {
     list-style: none;
 }
+/* цвет логотипа */
 .web {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .logo {
     color: #000000;
 }
+/* цвет ссылок на страницы */
 .site-nav .link {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #212121;
+    color: var(--title-text-color);
 }
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+.site-contact .link {
+    color: var(--title-text-color);
+}
+.site-contact .link:hover,
+.site-contact .link:focus {
+    color: var(--accent-color);
+}
+/* цвет фона и заголовка героя*/
 .hero-title {
-    color: #FFFFFF;
+color: var(--main-bg-color);
 }
-.hero-fon{
+.hero-bg {
     background-color: #2F303A;
 }
-.section-title {
-    color: #212121;
+.button-order {
+    color: var(--main-bg-color);
+    background-color: #188CE8;
 }
+/* цвет заголовков в секциях*/
+.section-title {
+    color: var(--title-text-color);
+}
+/* цвет фона футера и цвет логотипа*/
 footer {
     background-color: #2F303A;
 }
 .logo-footer {
     color: #FFFFFF;
 }
-
+/* стили ПОРТФОЛИО */
+/* кнопки фильтров*/
+.button-filter {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+.button-filter:hover,
+.button-filter:focus {
+    color: var(--main-bg-color);
+    background-color: var(--accent-color);
+}
+/*цвет заголовков проектов*/
+.project-title {
+    color: var(--title-text-color) ;
+}
+.project-filter {
+    color: var(--main-text-color);
+}
 
 
 /* СТУДИЯ логотип 2196F3, 000000
